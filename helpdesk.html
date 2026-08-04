@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR"></html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Helpdesk 3ºD - Painel de atendimento</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+        <body>
+            <header>
+                <h1>Central de suporte de TI</h1>
+                <hr>
+                </header>
+
+                <main>
+                    <section>
+                        <h2> Resumo operacional</h2>
+                        <ul>   
+                            <li><strong> Chamados abertos:</strong></li>
+                            <li><strong> Em andamento:</strong></li>
+                            <li><strong> Concluídos hoje:</strong></li>
+
+
+
+
+                        </ul>
+                    </section>
+
+                    <hr>
+                    <section>
+                        <h2> Abrir chamado de suporte</h2>
+                        <fo>
+                        <label for="solicitante"> Nomde do solicitante</label>
+                        <input type="text" id="solicitante" required><br><br>
+                        
+                        <label for="setor">Setor:</label><br>
+                        <select id="setor" required>
+                            <option value="">Selecione o setor financeiro...</option><br><br>
+                            <option value="rh"> Recursos humanos</option><br><br>
+                            <option value="produção">Produção</option><br><br>
+                            <option value="vendas"> Vendas</option><br><br>
+                        </select><br><br>
+
+
+                        <label> Prioridade do chamado</label><br>
+                        <input type="radio" id="p_baixa" name="prioridade" value="baixa">
+                        <label for="p_baixa"> Baixa</label>
+
+                        <input type="radio" id="p_media" name="prioridade" value="media" checked>
+                        <label for="p_media"> Media</label>
+
+                        <input type="radio" id="p_alta" name="prioridade" value="alta">
+                        <label for="p_alta"> Alta</label>
+
+                        <input type="radio" id="p_critica" name="prioridade" value="critica">
+                        <label for="p_critica"> Critica</label><br>
+
+                    <Label>Equipamentos  Envolvidos:</Label><br>
+                    <input type="checkbox" id="eq_monitor" value="monitor">
+                    <label for="eq_Monitor"> Monitor</label>
+
+                    <input type="checkbox" id="eq_perifericos" value="perifericos">
+                    <label for="eq_perifericos">Teclado/mouse</label>
+
+                    <input type="checkbox" id="eq_impressora" value="impressora">
+                    <label for="eq_impressora">Impressora</label><br><br>
+
+                    <label for="descrição"> Descrição detalhada do problema:</label><br>
+                    <textarea id="descrição" rows="4" cols="50" placeholder=" Descreva o problema" required></textarea><br><br>
+                
+                        </form>
+                    </section>
+                    <hr>
+
+                    <section>
+                        <h2> Chamados recentes</h2>
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                    <th>Setor</th>
+                                    <th>ID chamado</th>
+                                    <th>Solicitante</th>
+                                    <th>Prioridade</th>
+                                    <th>Data de abertura</th>
+                                    <th>status</th>
+
+                                </tr>
+                            </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="4">Financeiro</td>
+                            <td>#1098</td>
+                            <td>Carlos</td>
+                            <td>alta</td>
+                            <td>01/08/2026</td>
+                            <td>Em andamento</td>
+                        </tr>
+                        <tr>
+                            <td>#1098</td>
+                            <td>Carlos</td>
+                            <td>alta</td>
+                            <td>01/08/2026</td>
+                            <td>Em andamento</td>
+                        </tr>
+                        <tr>
+                            <td>#1098</td>
+                            <td>Carlos</td>
+                            <td>alta</td>
+                            <td>01/08/2026</td>
+                            <td>Em andamento</td>
+                        </tr>
+                        <tr>
+                            <td>#1098</td>
+                            <td>Carlos</td>
+                            <td>alta</td>
+                            <td>01/08/2026</td>
+                            <td>Em andamento</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </body>
+</html>
