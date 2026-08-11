@@ -1,0 +1,124 @@
+/*1. Reset de marges e configuração glogal*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(224, 248, 219);
+    color: rgb(13, 29, 20);
+    line-height:1.6;
+    padding: 20px;
+    max-width:1000px;
+    margin:0 auto;
+}
+hr{
+    display:none;
+}
+/*cabeçalho e rodapé*/
+head{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding:20px;
+    border-radius:8px;
+    margin-bottom:20px;
+}
+
+header h1{
+    font-size:1.5rem;
+    font-weight:normal;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    color: azure;
+    font-size:0.87rem;
+    margin-top:30px;
+}
+/*3.Estrutura dos cartões*/
+main{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+section{
+    background-color: rgb(102, 172, 106);
+    padding: 25px;
+    border-radius: 8px;
+    border:1px solid #0a491f;
+}
+
+section{
+    font-size:1.2rem;
+    margin-top:1.25rem;
+    color: black;
+    border-bottom: 2px solid aliceblue;
+    padding-bottom:10px;
+}
+
+/* Lista de Resumo Operacional*/
+section ul{
+    list-style:none;
+    display:flex;
+    flex-
+}
+
+section li{
+    background-color: #f8f8f8;
+    padding:10px 15px;
+    border-radius:6px;
+    border:1px solid #e2e8f0;
+}
+/*4. Formulárioa,imputs e seleções*/
+form label{
+    font-weight:600;
+    font-size: 0.875rem;
+    color: aliceblue;
+}
+/* Campos de texto, seleção e caixa de texto*/
+input[type="text"],
+select,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-top: 5px;
+    border:1px solid #cbd5e1;
+    font-size:0.95rem;
+    font-family:inherit;
+}
+
+textarea{
+    resize: vertical;
+}
+
+input:focus, select:focus,m textarea:focus{
+    outline: none;
+    border-color: rgb(4, 36, 21);
+}
+
+/*Ajuste fino para Radio e checkbook*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
