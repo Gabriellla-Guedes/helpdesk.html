@@ -101,6 +101,119 @@ input:focus, select:focus,m textarea:focus{
 }
 
 /*Ajuste fino para Radio e checkbook*/
+input[type="radio"],
+ input[type="checkbox"]{
+    margin-right:4px;
+    margin-left:10px;
+ }
+input[type="radio"]:first-of-type,
+input[type="checkbox"]:first-of-type{
+    margin-left:0;
+}
+
+/*Botões*/
+button{
+    padding:10px 20px;
+    border:none;
+    border-radius:6px;
+    font-size: 6px;
+    font-size:0.95rem;
+    cursor:pointer;
+    margin-right: 10px;
+    margin-top:10px;
+}
+
+button[type="submit"]{
+    background-color: #cbd5e1;
+    color: darkgreen;
+}
+button[type="submit"]:hover{
+    background-color: #cbd5e1;
+}
+
+textarea{
+    resize: vertical;
+}
+
+input:focus,select:focus,textarea:focus{
+}
+
+/*Ajuste fino para Radio e Checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 4px;
+    margin-left: 10px;
+}
+
+input[type="radio"]:first-of-type,
+input[type="checkbox"]:first-of-type {
+    margin-left: 0;
+}
+
+/* Botões */
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+button[type="submit"] {
+    background-color: rgb(12, 128, 56);
+    color:#ffffff;
+}
+button[type="submit"]:hover {
+    background-color: rgb(13, 56, 45);
+}
+button[type="reset"]:{
+    background-color: aliceblue;
+    color:#475569;
+}
+button[type="reset"]:hover {
+    background-color: #cbd5e1;
+}
+/*5. tabela de chamados*/
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top: 10px;
+    font-size:0.9rem;
+}
+
+/*remove as bordas padrão do HTML*/
+table,th,td{
+    border:none;
+}
+
+thead{
+    background-color: #0a491f;
+}
+
+th, td{
+      padding:12px 15px;
+      text-align:left;
+      border-bottom:1px solid #e2e8f0;
+      vertical-align:middle;
+}
+
+th{
+    color: #475569;
+    font-weight:600;
+}
+tbody tr:nth-child(even){
+    background-color: #ffffff;
+}
+tboyd tr:hover{
+    background-color: aliceblue;
+}
+
+
+
+
+
+
 
 
 
